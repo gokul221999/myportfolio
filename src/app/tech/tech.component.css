@@ -1,0 +1,50 @@
+/*div {
+    background-color: #353836;
+    width: 30%;
+    border: 10px solid white;
+    padding: 50px;
+    margin: 20px;
+    align-items: center;
+  }*/
+/*div{
+margin: auto;
+width: 50%;
+border: 10px solid white;
+padding: 50px;
+background-color: #353836;
+}*/
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.as{
+    margin: auto;
+    background-color: yellow;
+    width: 58%;
+    float: left;
+    border: 10px solid white;
+    padding: 50px;
+    height: 260px;
+    color: black;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+}
+.ab{
+    margin: auto;
+    background-color: yellow;
+    font-weight: bold;
+    color: black;
+    width: 42%;
+    height: 260px;
+    float: left;
+    border: 10px solid white;
+    font-family: "Poppins", sans-serif;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+   .as ,.ab{
+       margin: auto;
+       width: 50%;
+   }
+    
+}
