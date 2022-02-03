@@ -16,8 +16,14 @@ background-color: #353836;
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
+.aa{
+    height: 270px;
+    width: 100%;
+    background-color: white;
+}
+
 .as{
-    margin: auto;
+   
     background-color: yellow;
     width: 58%;
     float: left;
@@ -29,7 +35,7 @@ background-color: #353836;
     font-family: "Poppins", sans-serif;
 }
 .ab{
-    margin: auto;
+    
     background-color: yellow;
     font-weight: bold;
     color: black;
@@ -43,8 +49,14 @@ background-color: #353836;
 
 @media only screen and (max-width: 600px) {
    .as ,.ab{
-       margin: auto;
+       
        width: 50%;
+       height:auto ;
+       padding: 50px 10px 50px 20px;
+   }
+
+   .aa{
+       height: 270px;
    }
     
 }
